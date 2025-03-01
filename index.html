@@ -10,27 +10,198 @@
         <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.22/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <script>
         tailwind.config = {
           theme: {
             extend: {
               colors: {
                 clifford: '#da373d',
-                'bike-primary': '#E76F51',
+                'legal': '#B68C5A',
                 'bike-bg': 'rgba(231, 111, 81, 0.2)',
               }
             }
           }
         }
       </script>
+<style>
     
-      
-    
+.font-77 {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.font-66 {
+  font-family: "Poppins", sans-serif;
+  font-weight: auto;
+  font-style: normal;
+}
+</style>
 </head>
-<body>
+<body  class="mx-64 w-3/4">
+   <header class="mx-64">
+  <nav>
+    <div class="navbar bg-base-100 mt-16">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+              <li><a>Item 1</a></li>
+              <li>
+                
+              </li>
+              <li><a>Item 3</a></li>
+            </ul>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+              <li><a>Item 1</a></li>
+              <li>
+                
+              </li>
+              <li><a>Item 3</a></li>
+            </ul>
+          </div>
+          <a class="btn btn-ghost text-4xl "><img src="images/logo2.png" alt=""></a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1 mt-8 gap-4">
+            <li class="text-[#707070] font-bold text-lg"><a>Home</a></li>
+
+            <li class="text-[#707070] font-bold text-lg"><a>Services</a></li>
+            <li class="text-[#707070] font-bold text-lg"><a>Cases</a></li>
+            <li class="text-[#707070] font-bold text-lg"><a>Blog</a></li>
+            <li class="text-[#707070] font-bold text-lg"><a>Contact Us</a></li>
+            
+          </ul> 
+        </div>
+        <div class="navbar-end">
+          <a class="btn bg-legal text-white font-bold pt-[19px] pb-[29px] py-[25px] font-66">Free Consultation</a>
+        </div>
+      </div>
+
+  </nav>  
+   </header>
+   
+   <main  class="w-[80%] h-[510px] mx-auto bg-cover bg-center" style="background: url('images/banner.png');">
+  <div class="h-[510px] bg-gradient-to-t from-black/50 to-transparent">
+    <h1 class="text-7xl font-77 text-white font-bold text-center py-20">We Provide Effective <br>Legal Solutions</h1>
+    <p class="text-[#E7E7E7] text-lg text-center ">Skibidi never spoke a single word with sigma after their humorous fight on 2nd Feb.<br> They've been ignoring each other since. Not like anyone cares, but it sure is a matter of intense drama.</p>
+    <br>
+    <div class="flex justify-center items-center gap-5 mb-40">
+    <ul class="flex justify-center items-center gap-5">
+      <li><input class="text-left justify-center items-center py-5 pr-32 pl-3 rounded-md" type="text" placeholder="Search your services"></li>
+      <li><button class="btn bg-legal text-white border-none px-9 py-2 font-bold text-2xl text-center font-66">Search</button></li>
+     
+    </ul>
     
+    </div>
+  </div>
+<br><br><br><br>
+
+
+
+    <section>
+<h1 class="text-[40px] text-black font-extrabold text-center font-77">The Legal Practice Area</h1>
+<p class="text-gray-800 text-[16px] text-center">There are many variations of passages of Lorem Ipsum available, but the majority have <br>suffered alteration in some form, by injected humour.</p>
+<br><br>
+<!-- CARD SECTION -->
+<section class="grid-cols-3 grid">
+  <div class="card bg-base-100 w-96 shadow-xl">
+    <figure class="px-10 pt-10">
+      <img src="images/business.png" alt="">
+    </figure>
+    <div class="card-body items-center text-center">
+      <h2 class="card-title">Business Law</h2>
+      <p>Business is business and <br>dropshipping is business <br>so is business my business' business</p>
+      <div class="card-actions">
+      </div>
+    </div>
+  </div>
+  <div class="card bg-base-100 w-96 shadow-sm">
+    <figure class="px-10 pt-10">
+      <img src="images/criminal.png" alt="">
+    </figure>
+    <div class="card-body items-center text-center">
+      <h2 class="card-title">Criminal Law</h2>
+      <p>Criminal is criminal and <br>crime is haram <br>so crime is my crime partner's business</p>
+      <div class="card-actions">
+      </div>
+    </div>
+  </div>
+  <div class="card bg-base-100 w-96 shadow-sm">
+    <figure class="px-10 pt-10">
+      <img src="images/child.png" alt="">
+    </figure>
+    <div class="card-body items-center text-center">
+      <h2 class="card-title">Child Support</h2>
+      <p>Children are minors and <br>Diddy likes 13y/o minors <br>so let Diddy cook</p>
+      <div class="card-actions">
+      </div>
+    </div>
+  </div>
+  <div class="card bg-base-100 w-96 shadow-xl">
+    <figure class="px-10 pt-10">
+      <img src="images/education.png" alt="">
+    </figure>
+    <div class="card-body items-center text-center">
+      <h2 class="card-title">Educational Law</h2>
+      <p>Business is business and <br>dropshipping is business <br>so is business my business' business</p>
+      <div class="card-actions">
+      </div>
+    </div>
+  </div>
+  <div class="card bg-base-100 w-96 shadow-xl">
+    <figure class="px-10 pt-10">
+      <img src="images/divorce.png" alt="">
+    </figure>
+    <div class="card-body items-center text-center">
+      <h2 class="card-title">Divorce Law</h2>
+      <p>Business is business and <br>dropshipping is business <br>so is business my business' business</p>
+      <div class="card-actions">
+      </div>
+    </div>
+  </div>
+  <div class="card bg-base-100 w-96 shadow-xl">
+    <figure class="px-10 pt-10">
+      <img src="images/tax.png" alt="">
+    </figure>
+    <div class="card-body items-center text-center">
+      <h2 class="card-title">Tax Law</h2>
+      <p>Business is business and <br>dropshipping is business <br>so is business my business' business</p>
+      <div class="card-actions">
+      </div>
+    </div>
+  </div>
+
+</section>
+    </section>
+
+   </main>
+
+   <footer>
+
+   </footer>
 </body>
 </html>
